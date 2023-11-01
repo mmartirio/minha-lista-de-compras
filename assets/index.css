@@ -1,0 +1,120 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    opacity: 20px;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    background:linear-gradient(black, rgb(5, 5, 130, 1), black);
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    margin:0 auto;
+    padding: 10px;
+    font-size: 30pt;
+    color: #fbf9f9;
+}
+
+img {
+    width: 100px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.dev {
+    color: rgb(235, 12, 50);
+    font-size: 30pt;
+}
+
+.sign {
+    color: rgb(40, 50, 248);
+    font-size: 40pt;
+}
+
+section.form {
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 60px;
+    width: 300px;
+}
+input {
+    display: block;
+    text-align: center;
+    font-size: 12pt;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-left: 20%;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.uNome {
+    background-image: url(./image/iconUser.ico);
+    background-repeat: no-repeat;
+    background-position:20px;
+    background-size: 15px;
+}
+
+.uSenha {
+    background-image: url(./image/icon-pwd.ico);
+    background-repeat: no-repeat;
+    background-position:20px;
+    background-size: 15px;
+}
+
+
+.aCessar {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(235, 12, 50);
+    color: #fbf9f9;
+    width: 230px;
+    border: 0;
+}
+
+.aCessar:focus {
+    background: #3f3d3d;
+}
+
+.uCadastro {
+    text-align: center;
+    padding: 5px 10px;
+    display: flex;
+    margin: 0 auto;
+    width: 150px;
+    margin-left: 50%;
+}
+
+label.uCadastro {
+    margin-top: 10px;
+    color: #fbf9f9;
+    margin-left: -40px;
+}
+input.uCadastro {
+    width: 100px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -5px;
+    cursor: pointer;
+    background: rgb(235, 12, 50);
+    color: #fbf9f9;
+    border: 0;
+
+}
+
+input.uCadastro:focus {
+    background: #3f3d3d;
+}

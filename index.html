@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto DEV</title>
+
+    <link rel="stylesheet" href="./assets/index.css">
+     <link rel="shortcut icon" href="./assets/image/favicon.ico" type="image/x-icon">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1><span class="sign">&lt; &frasl;</span> Projeto <span class="dev">	DEV </span><span class="sign">&gt;</span></h1>
+
+    <img src="./assets/image/logo.png" alt="">
+
+    <div>
+        <section class="form">
+            <form action="#" method="get" target="_parent">
+
+                <input class="uNome" type="text" name="uNome" placeholder="usuário" required pattern="[a-zA-Z]+@[a-zA-Z]+">
+
+                <input class="uSenha" type="password" placeholder="senha" name="uSenha" pattern="[a-zA-Z0-9]+{123}" required row="8">
+
+                <input type="submit" class="aCessar" value= "Acessar" required="true" >
+            </form>
+        </section>
+
+        <section class="uCadastro">
+            <form action="./cadastro.html" method="get" target="_parent">
+                <label class="uCadastro" for="uCadastro">Cadastre-se aqui</label>
+                <input class="uCadastro" type="submit" name="uCadastro" value="cadastrar">
+            </form>
+        </section>
+    </div>
+</body>
+</html>

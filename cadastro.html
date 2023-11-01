@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+
+    <link rel="stylesheet" href="./assets/cadastro.css">
+     <link rel="shortcut icon" href="./assets/image/favicon.ico" type="image/x-icon">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1><span class="sign">&lt; &frasl;</span> Projeto <span class="dev">	DEV </span><span class="sign">&gt;</span></h1>
+
+    <img src="./assets/image/logo.png" alt="">
+
+    <h2>Cadastro de Usuário</h2>
+
+    <div>
+        <section>
+            <form  class="cForm" action="./index.html" method="get" target="_parent">
+                <label class="cNome" for="cNome">
+                   <strong>Nome</strong></label>
+                <input type="text" class="cNome" name="cNome" placeholder="Digite seu nome" oninvalid= "setCustomValidity('O nome deve conter letras maiúsculas')" pattern="[A-Za-z]+" required="true" >
+
+                <label for="=cEmail"><strong>E-mail</strong></label>
+                <input type="email" class="cEmail" name="cEmail" placeholder="Digite seu e-mail" required>
+
+                <label for="cSenha"><strong>Senha</strong></label>
+                <input type="password" class="cSenha" name="cSenha" placeholder="Digite sua senha" oninvalid= "setCustomValidity('A senha deve 8 caracteres com letras e números ')" pattern="^[a-zA-Z0-9]+{123}+" row="8" required="true">
+
+                <input type="submit" class="cCadastro" name="cCadastro" id="cCadastro" value="Cadastrar" required="true">
+            </form>
+        </section>
+        <section>
+            <form class="button" action="./index.html" method="get" target="_parent">
+                <input class="cReturn" type="submit" value="Voltar">
+            </form>
+            
+        </section>
+    </div>
+</body>
+</html>

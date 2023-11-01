@@ -1,0 +1,114 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    opacity: 20px;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    background:linear-gradient(black, rgb(5, 5, 130, 1), black);
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    margin:0 auto;
+    padding: 10px;
+    font-size: 30pt;
+    color: #fbf9f9;
+}
+
+img {
+    width: 100px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.dev {
+    color: rgb(235, 12, 50);
+    font-size: 30pt;
+}
+
+.sign {
+    color: rgb(40, 50, 248);
+    font-size: 40pt;
+}
+
+h2 {
+    text-align: center;
+    margin:0 auto;
+    padding: 5px;
+    font-size: 16pt;
+    color: #fbf9f9;
+    width: 330px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.cForm {
+    display: block;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    background: #2930f0;
+    margin-top: 10px;
+    box-shadow: #fbf9f9;
+
+}
+
+label{
+    display: block;
+    font-size: 12pt;
+    color: #fbf9f9;
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    padding: 8px 70px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.cCadastro {
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    padding: 5px;
+    font-size: 12pt;
+    color: #f9f7f7;
+    background: rgb(235, 12, 50);
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-position: center;
+   
+}
+
+input.cCadastro:focus {
+    background: #3f3d3d;;
+}
+
+.cReturn {
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    padding: 5px;
+    font-size: 12pt;
+    color: #f9f7f7;
+    background: rgb(235, 12, 50);
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.cReturn:focus {
+    background: #3f3d3d;;
+}
