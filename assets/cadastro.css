@@ -1,6 +1,10 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/static/Nunito-Regular.ttf) format(truetype);
+}
+
 body {
     font-family: 'Nunito', sans-serif;
-    opacity: 20px;
     margin: 0;
     padding: 0;
     align-content: center;
@@ -47,17 +51,17 @@ h2 {
     background-position: center;
 }
 
-.cForm {
+.cadastroForm {
     display: block;
     width: 300px;
     padding: 20px;
     margin: 0 auto;
     border-radius: 10px;
     text-align: center;
-    background: #2930f0;
+    background: rgba(7, 7, 161, 0.7);
     margin-top: 10px;
-    box-shadow: #fbf9f9;
-
+    box-shadow: 1px -1px 15px 0px rgb(20, 20, 75);
+    
 }
 
 label{
@@ -66,18 +70,21 @@ label{
     color: #fbf9f9;
     padding: 10px;
     text-align: center;
+
 }
 
 input {
+    display: block;
     border: none;
     border-radius: 20px;
-    padding: 8px 70px;
+    padding: 8px 60px;
     text-align: center;
     cursor: pointer;
     outline: none;
+
 }
 
-.cCadastro {
+.Cadastro {
     display: block;
     text-align: center;
     margin:0 auto;
@@ -92,11 +99,11 @@ input {
    
 }
 
-input.cCadastro:focus {
+input.Cadastro:focus {
     background: #3f3d3d;;
 }
 
-.cReturn {
+.cadReturn {
     display: block;
     text-align: center;
     margin:0 auto;
@@ -109,6 +116,6 @@ input.cCadastro:focus {
     border-radius: 20px;
 }
 
-.cReturn:focus {
+.Return:focus {
     background: #3f3d3d;;
 }

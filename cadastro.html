@@ -21,26 +21,26 @@
 
     <div>
         <section>
-            <form  class="cForm" action="./index.html" method="get" target="_parent">
-                <label class="cNome" for="cNome">
-                   <strong>Nome</strong></label>
-                <input type="text" class="cNome" name="cNome" placeholder="Digite seu nome" oninvalid= "setCustomValidity('O nome deve conter letras maiúsculas')" pattern="[A-Za-z]+" required="true" >
+            <form  class="cadastroForm" action="./index.html" method="get" target="_parent">
+                <label class="cadNome" for="cadastroNome">
+                   <strong>Nome</strong>
+                <input type="text" class="cadastroNome" name="cadastroNome" placeholder="Digite seu nome" oninvalid= "setCustomValidity('O nome deve conter letras maiúsculas') true" pattern="/[A-Za-z]+[A-Za-z]/g" required >
+            </label>
 
-                <label for="=cEmail"><strong>E-mail</strong></label>
-                <input type="email" class="cEmail" name="cEmail" placeholder="Digite seu e-mail" required>
+                <label class="cadEmail" for="=cadastroEmail"><strong>E-mail</strong>
+                <input type="email" class="ccadstroEmail" name="cadastroEmail" placeholder="Digite seu e-mail" required>
+            </label>
 
-                <label for="cSenha"><strong>Senha</strong></label>
-                <input type="password" class="cSenha" name="cSenha" placeholder="Digite sua senha" oninvalid= "setCustomValidity('A senha deve 8 caracteres com letras e números ')" pattern="^[a-zA-Z0-9]+{123}+" row="8" required="true">
+                <label class="cadSenha" for="cadastroSenha"><strong>Senha</strong>
+                <input type="password" class="cadastroSenha" name="cadastroSenha" placeholder="Digite sua senha" oninvalid= "setCustomValidity('A senha deve 8 caracteres com letras e números ')" pattern="^[a-zA-Z0-9]+{123}+" row="8" required="true">
+            </label>
 
-                <input type="submit" class="cCadastro" name="cCadastro" id="cCadastro" value="Cadastrar" required="true">
+                <input type="submit" class="Cadastro" name="Cadastro" id="Cadastro" value="Cadastrar" required="true">
             </form>
         </section>
-        <section>
             <form class="button" action="./index.html" method="get" target="_parent">
-                <input class="cReturn" type="submit" value="Voltar">
+                <input class="cadReturn" type="submit" value="Voltar">
             </form>
-            
-        </section>
     </div>
 </body>
 </html>

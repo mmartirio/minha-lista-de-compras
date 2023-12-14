@@ -1,7 +1,11 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/static/Nunito-Regular.ttf) format(truetype);
+}
+
 body {
-    font-family: 'Nunito', sans-serif;
-    opacity: 20px;
-    margin: 0;
+    font-family: 'Nunito';
+    margin: 0 auto;
     padding: 0;
     align-content: center;
     background:linear-gradient(black, rgb(5, 5, 130, 1), black);
@@ -40,31 +44,30 @@ section.form {
     padding: 50px;
     display: flex;
     margin: 0 auto;
-    border-radius: 60px;
+    box-shadow: 1px -1px 10px 0px rgb(9, 9, 37);
     width: 300px;
 }
 input {
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
     font-size: 12pt;
     border-radius: 20px;
     padding: 8px 20px;
-    margin-left: 20%;
-    margin-top: 20px;
-    align-items: center;
+    margin: 20px 40px;
     cursor: pointer;
     outline: none;
     border: none;
 }
 
-.uNome {
+.usuarioNome {
     background-image: url(./image/iconUser.ico);
     background-repeat: no-repeat;
     background-position:20px;
     background-size: 15px;
 }
 
-.uSenha {
+.usuarioSenha {
     background-image: url(./image/icon-pwd.ico);
     background-repeat: no-repeat;
     background-position:20px;
@@ -72,7 +75,7 @@ input {
 }
 
 
-.aCessar {
+.acessar {
     display: block;
     text-align: center;
     margin-top: 20px;
@@ -81,14 +84,14 @@ input {
     background: rgb(235, 12, 50);
     color: #fbf9f9;
     width: 230px;
-    border: 0;
+    border: none;
 }
 
-.aCessar:focus {
+.acessar:focus {
     background: #3f3d3d;
 }
 
-.uCadastro {
+.userCadastro {
     text-align: center;
     padding: 5px 10px;
     display: flex;
@@ -97,24 +100,24 @@ input {
     margin-left: 50%;
 }
 
-label.uCadastro {
+label.Cadastro {
     margin-top: 10px;
     color: #fbf9f9;
-    margin-left: -40px;
+    margin-left: -60px;
 }
-input.uCadastro {
+input.usuarioCadastro {
     width: 100px;
     display: block;
     text-align: center;
     margin-top: 10px;
-    margin-left: -5px;
+    margin-left: 1px;
     cursor: pointer;
     background: rgb(235, 12, 50);
     color: #fbf9f9;
-    border: 0;
+    border: none;
 
 }
 
-input.uCadastro:focus {
+input.usuarioCadastro:focus {
     background: #3f3d3d;
 }

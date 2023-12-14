@@ -8,33 +8,31 @@
     <link rel="stylesheet" href="./assets/index.css">
      <link rel="shortcut icon" href="./assets/image/favicon.ico" type="image/x-icon">
 
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1><span class="sign">&lt; &frasl;</span> Projeto <span class="dev">	DEV </span><span class="sign">&gt;</span></h1>
+    <h1><span class="sign">&lt; &frasl;</span> Projeto <span class="dev">DEV </span><span class="sign">&gt;</span></h1>
 
     <img src="./assets/image/logo.png" alt="">
 
     <div>
         <section class="form">
-            <form action="#" method="get" target="_parent">
+            <div>
+                <input class="usuarioNome" type="text"  name="userNome" placeholder="usuário" required pattern="[a-zA-Z]+@[a-zA-Z]+">
 
-                <input class="uNome" type="text" name="uNome" placeholder="usuário" required pattern="[a-zA-Z]+@[a-zA-Z]+">
+                <input class="usuarioSenha" maxlength="8" type="password" placeholder="senha" name="userSenha" pattern="[a-zA-Z0-9]{6,8}" autocomplete="current-password" required>
 
-                <input class="uSenha" type="password" placeholder="senha" name="uSenha" pattern="[a-zA-Z0-9]+{123}" required row="8">
-
-                <input type="submit" class="aCessar" value= "Acessar" required="true" >
-            </form>
+                <input type="submit" class="acessar" value= "Acessar" id="btn-login" required>
+            </div>
         </section>
 
-        <section class="uCadastro">
-            <form action="./cadastro.html" method="get" target="_parent">
-                <label class="uCadastro" for="uCadastro">Cadastre-se aqui</label>
-                <input class="uCadastro" type="submit" name="uCadastro" value="cadastrar">
+        <div class="userCadastro">
+            <form  action="./cadastro.html" method="get" target="_parent">
+                <label class="Cadastro" for="usuarioCadastro">Cadastre-se aqui
+                <input class="usuarioCadastro" type="submit" id="Cadastro" value="cadastrar">
+            </label>
             </form>
-        </section>
+        </div>
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>
