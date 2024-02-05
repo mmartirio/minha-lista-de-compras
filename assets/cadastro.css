@@ -8,8 +8,9 @@ body {
     margin: 0;
     padding: 0;
     align-content: center;
-    background:linear-gradient(black, rgb(5, 5, 130, 1), black);
+    background: rgb(16, 1, 75);
     background-size: contain;
+    
 }
 
 h1 {
@@ -26,7 +27,6 @@ img {
     padding: 10px;
     align-items: center;
     margin: 0 auto;
-
 }
 
 .dev {
@@ -34,7 +34,7 @@ img {
     font-size: 30pt;
 }
 
-.sign {
+.logo {
     color: rgb(40, 50, 248);
     font-size: 40pt;
 }
@@ -56,12 +56,11 @@ h2 {
     width: 300px;
     padding: 20px;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
-    background: rgba(7, 7, 161, 0.7);
+    background:linear-gradient(rgb(4, 4, 99), rgb(12, 1, 57), rgb(4, 4, 99));
     margin-top: 10px;
-    box-shadow: 1px -1px 15px 0px rgb(20, 20, 75);
-    
+    box-shadow: 1px -1px 10px 0px rgb(9, 9, 37);
 }
 
 label{
@@ -70,18 +69,16 @@ label{
     color: #fbf9f9;
     padding: 10px;
     text-align: center;
-
 }
 
 input {
     display: block;
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 8px 60px;
     text-align: center;
     cursor: pointer;
     outline: none;
-
 }
 
 .Cadastro {
@@ -91,18 +88,20 @@ input {
     padding: 5px;
     font-size: 12pt;
     color: #f9f7f7;
-    background: rgb(235, 12, 50);
+    background: rgb(179, 16, 43);
     width: 150px;
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 5px;
     background-position: center;
-   
 }
 
 input.Cadastro:focus {
     background: #3f3d3d;;
 }
 
+.Return{
+    margin-bottom: 20px;
+}
 .cadReturn {
     display: block;
     text-align: center;
@@ -110,10 +109,10 @@ input.Cadastro:focus {
     padding: 5px;
     font-size: 12pt;
     color: #f9f7f7;
-    background: rgb(235, 12, 50);
+    background: rgb(179, 16, 43);
     width: 100px;
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 5px;    
 }
 
 .Return:focus {

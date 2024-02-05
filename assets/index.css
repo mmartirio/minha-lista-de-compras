@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     padding: 0;
     align-content: center;
-    background:linear-gradient(black, rgb(5, 5, 130, 1), black);
+    background: rgb(16, 1, 75);
     background-size: contain;
 }
 
@@ -34,25 +34,27 @@ img {
     font-size: 30pt;
 }
 
-.sign {
+.logo {
     color: rgb(40, 50, 248);
     font-size: 40pt;
 }
 
-section.form {
+.form {
     text-align: center;
     padding: 50px;
     display: flex;
     margin: 0 auto;
+    border-radius: 5px;
     box-shadow: 1px -1px 10px 0px rgb(9, 9, 37);
     width: 300px;
+    background:linear-gradient(rgb(4, 4, 99), rgb(12, 1, 57), rgb(4, 4, 99));
 }
 input {
     display: flex;
     text-align: center;
     justify-content: center;
     font-size: 12pt;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 8px 20px;
     margin: 20px 40px;
     cursor: pointer;
@@ -81,7 +83,7 @@ input {
     margin-top: 20px;
     align-items: center;
     cursor: pointer;
-    background: rgb(235, 12, 50);
+    background: rgb(179, 16, 43);
     color: #fbf9f9;
     width: 230px;
     border: none;
@@ -100,6 +102,17 @@ input {
     margin-left: 50%;
 }
 
+.recuperaSenha{
+    transform: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.recuperaSenha:hover{
+    text-decoration: underline;
+}
+
 label.Cadastro {
     margin-top: 10px;
     color: #fbf9f9;
@@ -112,7 +125,7 @@ input.usuarioCadastro {
     margin-top: 10px;
     margin-left: 1px;
     cursor: pointer;
-    background: rgb(235, 12, 50);
+    background: rgb(28, 72, 215);
     color: #fbf9f9;
     border: none;
 

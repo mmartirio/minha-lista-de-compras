@@ -1,0 +1,10 @@
+/*Variáveis de Estilização*/
+
+:root{
+    --cor-background: rgb(16, 1, 75);
+} 
+
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/static/Nunito-Regular.ttf) format(truetype);
+}

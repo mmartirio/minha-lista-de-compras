@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/static/Nunito-Regular.ttf) format(truetype);
+}
+
+body {
+    font-family: 'Nunito';
+    margin: 0 auto;
+    padding: 0;
+    align-content: center;
+    background: rgb(16, 1, 75);
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    margin:0 auto;
+    padding: 10px;
+    font-size: 30pt;
+    color: #fbf9f9;
+}
+
+img {
+    width: 100px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.dev {
+    color: rgb(235, 12, 50);
+    font-size: 30pt;
+}
+
+.logo {
+    color: rgb(40, 50, 248);
+    font-size: 40pt;
+}
+
+.usuario{
+    display: block;
+    justify-content: center;
+    width: 200px;
+    margin: 15px;
+    padding: 8px 15px 15px 15px;
+    border-radius: 5px;
+    color: #fbf9f9;
+    
+}
+
+.fotoPerfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+    box-shadow: 1px -1px 10px 0px  rgb(0, 0, 0);
+}
+
+input[type='file']{
+    display: none;
+}
+
+.Perfil .infoPerfil{
+    display: block;
+    background: transparent;
+    border: 0;
+
+}
+
+.dropdown-menu ul li{
+    list-style: none;
+    color: #fbf9f9;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.dropdown{
+    display: none;
+}
+
+.dropdown a{
+    background: #332a64;
+    display: block;
+    text-decoration: none;
+    color: #fbf9f9;
+    cursor: pointer;
+}
+
+.dropdown a:hover{
+    background: #231c49;
+    padding: 5px 15px;
+    margin: 0;
+}
+
+.dropdown-menu ul li:hover .dropdown{
+    display: block;
+}

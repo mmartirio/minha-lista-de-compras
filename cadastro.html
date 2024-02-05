@@ -20,12 +20,16 @@
     <h2>Cadastro de Usuário</h2>
 
     <div>
-        <section>
             <form  class="cadastroForm" action="./index.html" method="get" target="_parent">
                 <label class="cadNome" for="cadastroNome">
                    <strong>Nome</strong>
-                <input type="text" class="cadastroNome" name="cadastroNome" placeholder="Digite seu nome" oninvalid= "setCustomValidity('O nome deve conter letras maiúsculas') true" pattern="/[A-Za-z]+[A-Za-z]/g" required >
+                <input type="text" class="cadastroNome" name="cadastroNome" placeholder="Digite seu nome" oninvalid= "setCustomValidity('O nome deve conter letras e Minúsculas maiúsculas')" pattern="/[A-Za-z]" required >
             </label>
+
+            <label class="cadNome" for="cadastroNome">
+                <strong>Sobrenome</strong>
+             <input type="text" class="cadastroNome" name="cadastroNome" placeholder="Digite seu nome" oninvalid= "setCustomValidity('O nome deve conter letras maiúsculas'), true" pattern="/[A-Za-z]+[A-Za-z]/g" required >
+         </label>
 
                 <label class="cadEmail" for="=cadastroEmail"><strong>E-mail</strong>
                 <input type="email" class="ccadstroEmail" name="cadastroEmail" placeholder="Digite seu e-mail" required>
@@ -37,10 +41,11 @@
 
                 <input type="submit" class="Cadastro" name="Cadastro" id="Cadastro" value="Cadastrar" required="true">
             </form>
-        </section>
+            <div class="Return">
             <form class="button" action="./index.html" method="get" target="_parent">
                 <input class="cadReturn" type="submit" value="Voltar">
             </form>
+        </div>
     </div>
 </body>
 </html>

@@ -4,19 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="./assets/index.css">
+    <link rel="stylesheet" href="./assets/home.css">
      <link rel="shortcut icon" href="./assets/image/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <nav>
     <h1><span class="sign">&lt; &frasl;</span> Projeto <span class="dev">DEV </span><span class="sign">&gt;</span></h1>
 
     <img src="./assets/image/logo.png" alt="">
 
-    <div class="Empresa">
-     <!--Inserção do nome da empresa-->
-     <label for="nomeEmp">Nome da empresa</label>
-     <input class="nomeEmpresa" type="text" name="nomeEmp" placeholder="Nome da Empresa" maxlength="50" required> 
-     
+    <div class="usuario">
+     <!--Inserção do nome do Nome do Usuário-->
+     <span class="Perfil">
+        <h2>Perfil do Usuário</h2>
+        <img class="fotoPerfil" src="./assets/image/Perfil/avatar-do-usuario.png" alt="Foto do Perfil">
+
+        <input type="file" id="fileImage" name="fileImage" accept="image/*">
+            <label for="perfilNome">Nome:</label>
+            <input class="infoPerfil"  name="perfilNome" type="text">
+
+            <label for="perfilTel">Tel.:</label>
+            <input class="infoPerfil" name="perfilTel" type="text" >
+        </span>
     </div>
+    <!--Menus de Nvaegação-->
+</nav>
+<nav class="dropdown-menu">
+<ul>
+    <li>Lista de Produtos
+        <div class="dropdown">
+            <a href="">Alimentos</a>
+            <a href="">Bebidas</a>
+            <a href="">Limpeza</a>
+            <a href="">Higiene</a>
+            <a href="">Ferramentas</a>
+            <a href="">Eletrodomésticos</a>
+        </div>
+    </li>
+</ul>
+</nav>
 </body>
 </html>
