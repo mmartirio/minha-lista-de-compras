@@ -15,16 +15,16 @@
     <img src="./assets/image/logo.png" alt="">
 
     <div>
-        <section class="form">
+        <form class="form" action="./home.html" target="_self">
             <div>
-                <input class="usuarioNome" type="text"  name="userNome" placeholder="usuário" required pattern="[a-zA-Z]+@[a-zA-Z]+">
+                <input class="usuarioNome" type="email"  name="userNome" placeholder="usuário"  autocomplete="current-email">
 
                 <input class="usuarioSenha" maxlength="8" type="password" placeholder="senha" name="userSenha" pattern="[a-zA-Z0-9]{6,8}" autocomplete="current-password" required>
 
                 <input type="submit" class="acessar" value= "Acessar" id="btn-login" required>
                 <a class="recuperaSenha" href="">Esqueceu a senha?</a>
             </div>
-        </section>
+        </form>
 
         <div class="userCadastro">
             <form  action="./cadastro.html" method="get" target="_parent">

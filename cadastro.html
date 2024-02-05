@@ -23,12 +23,12 @@
             <form  class="cadastroForm" action="./index.html" method="get" target="_parent">
                 <label class="cadNome" for="cadastroNome">
                    <strong>Nome</strong>
-                <input type="text" class="cadastroNome" name="cadastroNome" placeholder="Digite seu nome" oninvalid= "setCustomValidity('O nome deve conter letras e Minúsculas maiúsculas')" pattern="/[A-Za-z]" required >
+                <input type="text" class="cadastroNome" name="cadastroNome" placeholder="Digite seu nome"  required >
             </label>
 
-            <label class="cadNome" for="cadastroNome">
+            <label class="cadNome" for="cadastroSobreNome">
                 <strong>Sobrenome</strong>
-             <input type="text" class="cadastroNome" name="cadastroNome" placeholder="Digite seu nome" oninvalid= "setCustomValidity('O nome deve conter letras maiúsculas'), true" pattern="/[A-Za-z]+[A-Za-z]/g" required >
+             <input type="text" class="cadastroNome" name="cadastroSobreNome" placeholder="Digite seu nome"  required >
          </label>
 
                 <label class="cadEmail" for="=cadastroEmail"><strong>E-mail</strong>
@@ -36,7 +36,7 @@
             </label>
 
                 <label class="cadSenha" for="cadastroSenha"><strong>Senha</strong>
-                <input type="password" class="cadastroSenha" name="cadastroSenha" placeholder="Digite sua senha" oninvalid= "setCustomValidity('A senha deve 8 caracteres com letras e números ')" pattern="^[a-zA-Z0-9]+{123}+" row="8" required="true">
+                <input type="password" class="cadastroSenha" name="cadastroSenha" placeholder="Digite sua senha" pattern="^[a-zA-Z0-9]+{123}+" row="8" required="true">
             </label>
 
                 <input type="submit" class="Cadastro" name="Cadastro" id="Cadastro" value="Cadastrar" required="true">
