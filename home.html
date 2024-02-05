@@ -19,9 +19,12 @@
         <h2>Perfil do Usuário</h2>
         <img class="fotoPerfil" src="./assets/image/Perfil/avatar-do-usuario.png" alt="Foto do Perfil">
 
-        <input type="file" id="fileImage" name="fileImage" accept="image/*">
+        <span class="carregaFoto"><button>Carregar Foto</button>
+            <input type="file" id="fileImage" name="fileImage" accept="image/*">
+        </span>
             <label for="perfilNome">Nome:</label>
             <input class="infoPerfil"  name="perfilNome" type="text">
+        
 
             <label for="perfilTel">Tel.:</label>
             <input class="infoPerfil" name="perfilTel" type="text" >
@@ -30,6 +33,14 @@
     <!--Menus de Nvaegação-->
 </nav>
 <nav class="dropdown-menu">
+    <ul>
+        <li>Produtos
+            <div class="dropdown">
+                <a href="">Inserir</a>
+                <a href="">Editar</a>
+            </div>
+        </li>
+    </ul>
 <ul>
     <li>Lista de Produtos
         <div class="dropdown">
@@ -42,6 +53,13 @@
         </div>
     </li>
 </ul>
+<div>
+    <span class="listaDeCompras"><a href="">Criar lista de compras</a></span>
+</div>
+
+<div>
+    <span class="gerenciaLista"><a href="">Gerenciar Listas</a></span>
+</div>
 </nav>
 </body>
 </html>

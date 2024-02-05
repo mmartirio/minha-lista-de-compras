@@ -39,6 +39,13 @@ img {
     font-size: 40pt;
 }
 
+
+.carregaFoto{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
 .usuario{
     display: block;
     justify-content: center;
@@ -67,17 +74,31 @@ input[type='file']{
     display: block;
     background: transparent;
     border: 0;
+}
 
+.dropdown-menu{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background: #130275;
+    width: 100%;
+    height: 5vh;
+}
+
+.dropdown-menu ul{
+    display: inline-flex;
+    box-sizing: border-box;
+    margin: 3px 10px;
+    padding: 2px 20px;
 }
 
 .dropdown-menu ul li{
     list-style: none;
     color: #fbf9f9;
     cursor: pointer;
-    width: 150px;
-    text-align: center;
-    padding: 5px;
-    
+    text-align: center;   
 }
 
 .dropdown{
@@ -100,4 +121,17 @@ input[type='file']{
 
 .dropdown-menu ul li:hover .dropdown{
     display: block;
+    margin-top: 10px;
 }
+
+.listaDeCompras a, .gerenciaLista a{
+    display: inline-flex;
+    box-sizing: border-box;
+    margin: 3px 10px;
+    padding: 2px 20px;
+    color: #fbf9f9;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
