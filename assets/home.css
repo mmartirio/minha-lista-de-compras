@@ -12,11 +12,18 @@ body {
     background-size: contain;
 }
 
+.header{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 10px 60px;
+}
+
 h1 {
     text-align: center;
     margin:0 auto;
     padding: 10px;
-    font-size: 30pt;
+    font-size: 40pt;
     color: #fbf9f9;
 }
 
@@ -24,21 +31,13 @@ img {
     width: 100px;
     display: flex;
     padding: 10px;
-    align-items: center;
     margin: 0 auto;
-
 }
 
-.dev {
+.lista {
     color: rgb(235, 12, 50);
-    font-size: 30pt;
-}
-
-.logo {
-    color: rgb(40, 50, 248);
     font-size: 40pt;
 }
-
 
 .carregaFoto{
     display: flex;

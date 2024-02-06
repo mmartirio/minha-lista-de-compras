@@ -8,18 +8,21 @@
      <link rel="shortcut icon" href="./assets/image/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <div class="header">
+      <h1><span class="minha"></span> Minha <span class="lista">Lista de compras </span><span class="sign"></span></h1>
+
+      <img src="./assets/image/logo.png" alt="">
+</div>
+
     <nav>
-    <h1><span class="sign">&lt; &frasl;</span> Projeto <span class="dev">DEV </span><span class="sign">&gt;</span></h1>
-
-    <img src="./assets/image/logo.png" alt="">
-
-    <div class="usuario">
+        <div class="usuario">
      <!--Inserção do nome do Nome do Usuário-->
      <span class="Perfil">
         <h2>Perfil do Usuário</h2>
-        <img class="fotoPerfil" src="./assets/image/Perfil/avatar-do-usuario.png" alt="Foto do Perfil">
 
-        <span class="carregaFoto"><button>Carregar Foto</button>
+        <img id="photo" class="fotoPerfil" src="./assets/image/Perfil/avatar-do-usuario.png" alt="Foto do Perfil">
+
+        <span class="carregaFoto" id="carregaFoto"><button>Carregar Foto</button>
             <input type="file" id="fileImage" name="fileImage" accept="image/*">
         </span>
             <label for="perfilNome">Nome:</label>
@@ -61,5 +64,6 @@
     <span class="gerenciaLista"><a href="">Gerenciar Listas</a></span>
 </div>
 </nav>
+<script src="./app.js"></script>
 </body>
 </html>
