@@ -14,7 +14,7 @@ body {
 
 .header{
     display: inline-flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     margin: 10px 60px;
 }
@@ -38,6 +38,19 @@ img {
 .lista {
     color: rgb(235, 12, 50);
     font-size: 40px;
+}
+
+.fechaPagina{
+    display: block;
+    position: absolute;
+    text-align: center;
+    margin:0 auto;
+    padding: 3px 15px;
+    font-size: 10pt;
+    color: #f9f7f7;
+    background: rgb(179, 16, 43);
+    margin: -10px 140px;
+    border-radius: 5px;    
 }
 
 .carregaFoto{
@@ -64,8 +77,6 @@ img {
     margin: 10px 0px;
     padding: 1px 8px;
     color: #fbf9f9;
-    border-top:  3px  solid rgba(41, 58, 134, 0.5);
-    border-bottom: 3px  solid rgba(41, 58, 134, 0.5);
 }
 
 .usuario h2{
