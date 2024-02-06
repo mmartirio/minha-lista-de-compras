@@ -20,47 +20,66 @@ body {
 }
 
 h1 {
+    font-weight: 600;
     text-align: center;
     margin:0 auto;
-    padding: 10px;
-    font-size: 40pt;
+    padding: 5px;
+    font-size: 40px;
     color: #fbf9f9;
 }
 
 img {
-    width: 100px;
+    width: 50px;
     display: flex;
-    padding: 10px;
+    padding: 5px;
     margin: 0 auto;
 }
 
 .lista {
     color: rgb(235, 12, 50);
-    font-size: 40pt;
+    font-size: 40px;
 }
 
 .carregaFoto{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-
-.usuario{
     display: block;
     justify-content: center;
-    width: 200px;
-    margin: 15px;
-    padding: 8px 15px 15px 15px;
+    margin: 5px 30px;
+}
+
+.carregaFoto button{
+    background: #bcc201;
+    font-family: 'Nunito';
+    font-weight: 600;
+    color: #000;
     border-radius: 5px;
+}
+
+.carregaFoto button:hover{
+    background: #a3a802;
+}
+
+.usuario {
+    display: inline-flex;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 1px 8px;
     color: #fbf9f9;
-    
+    border-top:  3px  solid rgba(41, 58, 134, 0.5);
+    border-bottom: 3px  solid rgba(41, 58, 134, 0.5);
+}
+
+.usuario h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 30px;
 }
 
 .fotoPerfil{
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
     margin-bottom: 20px;
+    margin: 10px 35px;
     padding: 0;
     box-shadow: 1px -1px 10px 0px  rgb(0, 0, 0);
 }
@@ -69,10 +88,15 @@ input[type='file']{
     display: none;
 }
 
-.Perfil .infoPerfil{
+.infoUsuario{
+    margin: 50px -65px 5px;
+}
+
+.infoPerfil, .infoTel{
     display: block;
     background: transparent;
     border: 0;
+    margin-top: 5px;
 }
 
 .dropdown-menu{
