@@ -7,6 +7,7 @@ body {
     font-family: 'Nunito';
     margin: 0 auto;
     padding: 0;
+    border: none;
     align-content: center;
     background: rgb(16, 1, 75);
     background-size: contain;
@@ -44,12 +45,10 @@ img {
     display: block;
     position: absolute;
     text-align: center;
-    margin:0 auto;
     padding: 3px 15px;
     font-size: 10pt;
     color: #f9f7f7;
     background: rgb(179, 16, 43);
-    margin: -10px 140px;
     border-radius: 5px;    
 }
 
@@ -116,14 +115,14 @@ input[type='file']{
     position: absolute;
     margin: 0;
     padding: 0;
+    border: 0;
     background: #130275;
-    width: 100%;
+    width: 100vw;
     height: 5vh;
 }
 
 .dropdown-menu ul{
     display: inline-flex;
-    box-sizing: border-box;
     margin: 3px 10px;
     padding: 2px 20px;
 }
@@ -149,20 +148,19 @@ input[type='file']{
 
 .dropdown a:hover{
     background: #231c49;
-    padding: 5px 15px;
+    padding: 5px 10px;
     margin: 0;
 }
 
 .dropdown-menu ul li:hover .dropdown{
     display: block;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .listaDeCompras a, .gerenciaLista a{
     display: inline-flex;
     box-sizing: border-box;
     margin: 3px 10px;
-    padding: 2px 20px;
     color: #fbf9f9;
     cursor: pointer;
     text-align: center;
