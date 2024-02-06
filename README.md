@@ -8,7 +8,7 @@ Esta é uma simples aplicação de lista de compras desenvolvida em HTML, CSS e 
 - Adicionar itens à lista de compras
 - Remover itens da lista de compras
 - Marcar itens como comprados
-- Limpar lista de compras
+- Gerenciar lista de compras
 - Responsividade para funcionamento em dispositivos móveis
 
 ## Como usar
