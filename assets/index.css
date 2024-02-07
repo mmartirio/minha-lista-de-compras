@@ -165,8 +165,9 @@ input.usuarioCadastro:focus {
         align-items: center;
     }
 
-    .acessar{
-        width: 244.4px;
+    .form div .acessar{
+        display: block;
+        margin-left: 13%;
     }
      
     .usuarioCadastro{
