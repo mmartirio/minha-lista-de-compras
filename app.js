@@ -44,9 +44,10 @@ function exibirEmailCompleto() {
 // Chamar a função para exibir o nome completo quando a página carregar
 window.onload = exibirNomeCompleto;
 
-
+//Função para mudar a foto do perfil
 'use strict'
 
+//gerar click do input file no botão de altar imagem
 let foto = document.getElementById('carregaFoto');
 let file = document.getElementById('fileImage');
 let image = document.querySelector('.fotoPerfil')
@@ -54,7 +55,7 @@ foto.addEventListener('click', () =>{
     file.click();
 });
 
-
+//mostrar a imagem seleciona no espaço reservado para imagem
 file.addEventListener('change', function() {
     let file = this.files[0];
     
@@ -80,24 +81,6 @@ function pegarValores(){
 var buttonLogin = document.getElementById('btn-login')
 buttonLogin.addEventListener('click',pegarValores);
 
-
-
-
-
-document.getElementById('carregarFoto').addEventListener('click', function() {
-    document.getElementById('fileImage').click();
-});
-
-document.getElementById('fileImage').addEventListener('change', function() {
-    const file = this.files[0];
-    if (file) {
-        const reader = new FileReader();
-        reader.onload = function(e) {
-            document.getElementById('photo').src = e.target.result;
-        }
-        reader.readAsDataURL(file);
-      }
-    });
 
 
    
