@@ -131,7 +131,7 @@ input.usuarioCadastro:focus {
 }
 
 
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 368px) {
     .header{
         padding: 10px 30px;
         align-items: center;
