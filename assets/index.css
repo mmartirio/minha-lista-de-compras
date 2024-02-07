@@ -78,15 +78,10 @@ img {
 
 
 .acessar {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-    align-items: center;
     cursor: pointer;
     background: rgb(179, 16, 43);
     color: #fbf9f9;
     width: 234.4px;
-    border: none;
 }
 
 .acessar:focus {
