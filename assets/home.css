@@ -45,6 +45,8 @@ img {
     display: block;
     position: absolute;
     text-align: center;
+    top: 35px;
+    right: 20px;
     padding: 3px 15px;
     font-size: 10pt;
     color: #f9f7f7;
@@ -72,8 +74,7 @@ img {
 
 .usuario {
     display: inline-flex;
-    width: 100%;
-    margin: 10px 0px;
+    margin: 10px 70px;
     padding: 1px 8px;
     color: #fbf9f9;
 }
@@ -102,11 +103,14 @@ input[type='file']{
     margin: 50px -65px 5px;
 }
 
-.infoPerfil, .infoTel{
+.infoPerfil, .infoEmail{
     display: block;
+    font-size: 20px;
     background: transparent;
     border: 0;
     margin-top: 5px;
+    color: #bcc201;
+    outline: none;
 }
 
 .dropdown-menu{
@@ -124,7 +128,7 @@ input[type='file']{
 .dropdown-menu ul{
     display: inline-flex;
     margin: 3px 10px;
-    padding: 2px 20px;
+    padding: 3px 10px;
 }
 
 .dropdown-menu ul li{
@@ -161,6 +165,7 @@ input[type='file']{
     display: inline-flex;
     box-sizing: border-box;
     margin: 3px 10px;
+    padding: 3px 10px;
     color: #fbf9f9;
     cursor: pointer;
     text-align: center;

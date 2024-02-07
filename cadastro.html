@@ -25,23 +25,23 @@
             <form  class="cadastroForm" action="./index.html" method="get" target="_parent">
                 <label class="cadNome" for="cadastroNome">
                    <strong>Nome</strong>
-                <input type="text" class="cadastroNome" name="cadastroNome" placeholder="Digite seu nome"  required >
+                <input type="text" class="cadastroNome" name="cadastroNome" id="cadastroNome" placeholder="Digite seu nome"  required >
             </label>
 
-            <label class="cadNome" for="cadastroSobreNome">
+            <label class="cadSObreNome" for="cadastroSobreNome">
                 <strong>Sobrenome</strong>
-             <input type="text" class="cadastroNome" name="cadastroSobreNome" placeholder="Digite seu nome"  required >
+             <input type="text" class="cadastroNome" name="cadastroSobreNome" id="cadastroSobreNome" placeholder="Digite seu Sobrenome"  required >
          </label>
 
                 <label class="cadEmail" for="=cadastroEmail"><strong>E-mail</strong>
-                <input type="email" class="ccadstroEmail" name="cadastroEmail" placeholder="Digite seu e-mail" required>
+                <input type="email" class="cadastroEmail" name="cadastroEmail" id="cadastroEmail" placeholder="Digite seu e-mail" required>
             </label>
 
                 <label class="cadSenha" for="cadastroSenha"><strong>Senha</strong>
                 <input type="password" class="cadastroSenha" name="cadastroSenha" placeholder="Digite sua senha" pattern="^[a-zA-Z0-9]+{123}+" row="8" required="true">
             </label>
 
-                <input type="submit" class="Cadastro" name="Cadastro" id="Cadastro" value="Cadastrar" required="true">
+                <input type="submit" class="Cadastro" name="Cadastro" id="Cadastro" value="Cadastrar" required="true" onclick="salvarDadosUsuario()">
             </form>
             <div class="Return">
             <form class="button" action="./index.html" method="get" target="_parent">
@@ -49,5 +49,6 @@
             </form>
         </div>
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>

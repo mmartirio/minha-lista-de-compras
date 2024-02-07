@@ -1,3 +1,50 @@
+
+function salvarDadosUsuario() {
+    var nome = document.getElementById("cadastroNome").value;
+    var sobrenome = document.getElementById("cadastroSobreNome").value;
+    var email = document.getElementById("cadastroEmail").value;
+
+    // Armazenar os dados no localStorage
+    localStorage.setItem("cadastroNome", nome);
+    localStorage.setItem("cadastroSobreNome", sobrenome);
+    localStorage.setItem("cadastroEmail", email);
+}
+
+// Função para exibir o nome completo do usuário na tela de boas-vindas
+function exibirNomeCompleto() {
+    // Recuperar os dados do localStorage
+    var nome = localStorage.getItem("cadastroNome");
+    var sobrenome = localStorage.getItem("cadastroSobreNome");
+    var email = localStorage.getItem("cadastroEmail");
+
+    // Construir o nome completo e exibir na tela
+    var nomeCompleto = nome + " " + sobrenome;
+    document.getElementById("perfilNome").value = nomeCompleto;
+
+    var emailCompleto = email;
+    document.getElementById("perfilEmail").value = emailCompleto;
+
+}
+
+// Chamar a função para exibir o nome completo quando a página carregar
+window.onload = exibirNomeCompleto ;
+
+
+function exibirEmailCompleto() {
+    // Recuperar os dados do localStorage
+    var emailCompleto = localStorage.getItem("cadastroEmail");
+    
+
+    // Construir o email e exibir na tela
+    var emailCompleto = email;
+    document.getElementById("perfilEmail").value = emailCompleto;
+
+}
+
+// Chamar a função para exibir o nome completo quando a página carregar
+window.onload = exibirNomeCompleto;
+
+
 'use strict'
 
 let foto = document.getElementById('carregaFoto');
@@ -51,3 +98,6 @@ document.getElementById('fileImage').addEventListener('change', function() {
         reader.readAsDataURL(file);
       }
     });
+
+
+   
