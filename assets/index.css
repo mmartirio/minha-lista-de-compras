@@ -166,8 +166,8 @@ input.usuarioCadastro:focus {
     }
 
     .form div .acessar{
-        display: block;
-        margin-left: 13%;
+        display: flexbox
+
     }
      
     .usuarioCadastro{
