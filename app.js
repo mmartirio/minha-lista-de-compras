@@ -8,7 +8,8 @@ function salvarDadosUsuario() {
     localStorage.setItem("cadastroNome", nome);
     localStorage.setItem("cadastroSobreNome", sobrenome);
     localStorage.setItem("cadastroEmail", email);
-}
+};
+
 
 // Função para exibir o nome completo do usuário na tela de boas-vindas
 function exibirNomeCompleto() {
@@ -24,7 +25,7 @@ function exibirNomeCompleto() {
     var emailCompleto = email;
     document.getElementById("perfilEmail").value = emailCompleto;
 
-}
+};
 
 // Chamar a função para exibir o nome completo quando a página carregar
 window.onload = exibirNomeCompleto ;
@@ -39,7 +40,7 @@ function exibirEmailCompleto() {
     var emailCompleto = email;
     document.getElementById("perfilEmail").value = emailCompleto;
 
-}
+};
 
 // Chamar a função para exibir o nome completo quando a página carregar
 window.onload = exibirNomeCompleto;
@@ -70,14 +71,15 @@ file.addEventListener('change', function() {
     });
 
 
-function pegarValores(){
+//pega valor digitado usuário e senha
+//function pegarValores(){
     var nome = document.querySelector('.usuarioNome')
     var senha = document.querySelector('.ususarioSenha')
     var botaoAcessar = document.querySelector('.acessar')
     console.log(nome.value)
     console.log(senha.value)
 
-}
+//}
 var buttonLogin = document.getElementById('btn-login')
 buttonLogin.addEventListener('click',pegarValores);
 

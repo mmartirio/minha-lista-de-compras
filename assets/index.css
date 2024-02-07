@@ -49,7 +49,7 @@ img {
     width: 300px;
     background:linear-gradient(rgb(4, 4, 99), rgb(12, 1, 57), rgb(4, 4, 99));
 }
-input {
+.form div input {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -133,4 +133,39 @@ input.usuarioCadastro {
 
 input.usuarioCadastro:focus {
     background: #3f3d3d;
+}
+
+
+@media  screen and (max-width: 768px) {
+    .header{
+        padding: 10px 30px;
+        align-items: center;
+    }
+    
+    h1, .lista{
+        width: 80vw;
+        font-size: 1.7rem;
+        text-align: center;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .header img{
+        justify-content: center;
+        margin: 5px 85px;
+    } 
+
+    .form {
+        width: 60vw;
+        justify-content: center;
+    }
+
+    .form div{
+        display: block;
+        align-items: center;
+    }
+
+    .usuarioCadastro{
+        margin-right: 60px;
+    }
 }
