@@ -166,6 +166,7 @@ input.usuarioCadastro:focus {
     }
 
     .form div .acessar{
+        width: 80vw;
         display: block;
         margin-left: 13%;
     }
