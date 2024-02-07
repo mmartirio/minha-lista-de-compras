@@ -164,6 +164,10 @@ input.usuarioCadastro:focus {
         display: block;
         align-items: center;
     }
+
+    .acessar{
+        width: 244.4px;
+    }
      
     .usuarioCadastro{
         margin-right: 60px;
