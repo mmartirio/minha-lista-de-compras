@@ -50,7 +50,7 @@ img {
     background:linear-gradient(rgb(4, 4, 99), rgb(12, 1, 57), rgb(4, 4, 99));
 }
 .form div input {
-    display: flex;
+    display: block;
     text-align: center;
     justify-content: center;
     font-size: 12pt;
