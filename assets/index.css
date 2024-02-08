@@ -161,7 +161,8 @@ input.usuarioCadastro:focus {
     }
 
     .form div .acessar{
-        width: 100%;
+        max-width: 100%;
+        width: 234.4px;
 
     }
      
