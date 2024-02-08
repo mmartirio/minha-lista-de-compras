@@ -161,11 +161,12 @@ input.usuarioCadastro:focus {
     }
 
     .form div .acessar{
-        width: 234.4px;
+        width: 100%;
 
     }
      
     .usuarioCadastro{
         margin-right: 60px;
     }
+
 }
