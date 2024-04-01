@@ -163,14 +163,19 @@ input.usuarioCadastro:focus {
         justify-content: center;
     }
 
-    .form div{
+    .form .userFrom{
         display: block;
         align-items: center;
     }
 
-    .form .userFrom input, button {
+    .form .userFrom input {
         max-width: 100%;
         width: 234.4px;
+    }
+
+    .form .userFrom button {
+        max-width: 100%;
+        width: 235.8px;
 
     }
      
