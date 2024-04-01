@@ -49,7 +49,7 @@ img {
     width: 300px;
     background:linear-gradient(rgb(4, 4, 99), rgb(12, 1, 57), rgb(4, 4, 99));
 }
-.form div input {
+.form .userFrom input {
     display: block;
     text-align: center;
     justify-content: center;
@@ -78,10 +78,18 @@ img {
 
 
 .acessar {
-    cursor: pointer;
     background: rgb(179, 16, 43);
     color: #fbf9f9;
-    width: 234.4px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 12pt;
+    border-radius: 5px;
+    padding: 8px 89px;
+    margin: 20px 40px;
+    cursor: pointer;
+    outline: none;
+    border: none;
 }
 
 .acessar:focus {
@@ -161,7 +169,7 @@ input.usuarioCadastro:focus {
     }
 
     .form div .acessar{
-        max-width: 100%;
+        max-width: 120%;
         width: 234.4px;
 
     }

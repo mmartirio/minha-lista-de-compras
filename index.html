@@ -18,12 +18,13 @@
 
     <div>
         <form class="form" action="./home.html" target="_self">
-            <div>
+            <div class="userFrom">
                 <input class="usuarioNome" type="email"  name="userNome" placeholder="usuário"  autocomplete="current-email">
 
                 <input class="usuarioSenha" maxlength="8" type="password" placeholder="senha" name="userSenha" pattern="[a-zA-Z0-9]{6,8}" autocomplete="current-password" required>
 
-                <input type="submit" class="acessar" value= "Acessar" id="btn-login" required>
+                <!--<input type="submit" class="acessar" value= "Acessar" id="btn-login" required>-->
+                <button type="submit" class="acessar">Acessar</button>
                 <a class="recuperaSenha" href="">Esqueceu a senha?</a>
             </div>
         </form>
