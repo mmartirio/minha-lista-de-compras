@@ -150,7 +150,7 @@ input.Cadastro:focus {
 
     .cadastroForm .Cadastro input {
         max-width: 80%;
-        margin-right: 10px;
+        margin-left: -30px;
     
     }
 
