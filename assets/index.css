@@ -96,25 +96,30 @@ img {
     background: #3f3d3d;
 }
 
-.userCadastro {
-    text-align: center;
-    padding: 5px 10px;
-    display: flex;
-    margin: 0 auto;
-    width: 150px;
-    margin-left: 50%;
-}
-
 .recuperaSenha{
     transform: none;
     text-decoration: none;
     cursor: pointer;
     color: #fff;
+    margin-right: 8px;
 }
 
 .recuperaSenha:hover{
     text-decoration: underline;
 }
+
+.criaConta {
+    transform: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+.criaConta:hover{
+    text-decoration: underline;
+}
+
 
 label.Cadastro {
     margin-top: 10px;
