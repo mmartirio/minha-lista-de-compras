@@ -168,8 +168,8 @@ input.usuarioCadastro:focus {
         align-items: center;
     }
 
-    .form div .acessar{
-        max-width: 120%;
+    .form .userFrom {
+        max-width: 100%;
         width: 234.4px;
 
     }
