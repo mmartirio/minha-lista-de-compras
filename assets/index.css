@@ -120,25 +120,6 @@ img {
     text-decoration: underline;
 }
 
-
-label.Cadastro {
-    margin-top: 10px;
-    color: #fbf9f9;
-    margin-right:30px;
-}
-input.usuarioCadastro {
-    width: 100px;
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    background: rgb(28, 72, 215);
-    color: #fbf9f9;
-    border: none;
-
-}
-
 input.usuarioCadastro:focus {
     background: #3f3d3d;
 }

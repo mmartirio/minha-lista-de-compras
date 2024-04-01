@@ -118,3 +118,49 @@ input.Cadastro:focus {
 .Return:focus {
     background: #3f3d3d;;
 }
+
+@media  screen and (max-width: 368px) {
+    .header{
+        padding: 10px 30px;
+        align-items: center;
+    }
+    
+    h1, .lista{
+        width: 80vw;
+        font-size: 1.7rem;
+        text-align: center;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .header img{
+        justify-content: center;
+        margin: 5px 85px;
+    } 
+
+    .cadastroForm {
+        width: 60vw;
+        justify-content: center;
+    }
+
+    .cadastroForm .Cadastro {
+        display: block;
+        align-items: center;
+    }
+
+    .cadastroForm .Cadastro input {
+        max-width: 100%;
+        width: 234.4px;
+    }
+
+    .cadastroForm .Cadastro button {
+        max-width: 100%;
+
+
+    }
+     
+    .usuarioCadastro{
+        margin-right: 60px;
+    }
+
+}
