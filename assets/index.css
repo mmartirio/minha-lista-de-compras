@@ -168,7 +168,7 @@ input.usuarioCadastro:focus {
         align-items: center;
     }
 
-    .form .userFrom {
+    .form .userFrom, input, button {
         max-width: 100%;
         width: 234.4px;
 
