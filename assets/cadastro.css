@@ -148,11 +148,12 @@ input.Cadastro:focus {
         align-items: center;
     }
 
-    .cadastroForm input {
+    .cadastroForm .cadastroNome, .cadSObreNome, .cadEmail, .cadSenha {
         max-width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-left: -10px;        
     }
 
     .cadastroForm .Cadastro button {
