@@ -150,11 +150,9 @@ input.Cadastro:focus {
 
     .cadastroForm input {
         max-width: 80%;
-        width: 214.4px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: -40px;        
     }
 
     .cadastroForm .Cadastro button {
