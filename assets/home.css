@@ -9,7 +9,7 @@ body {
     padding: 0;
     border: none;
     align-content: center;
-    background: rgb(16, 1, 75);
+    background: rgb(238, 238, 239);
     background-size: contain;
 }
 
@@ -26,7 +26,7 @@ h1 {
     margin:0 auto;
     padding: 5px;
     font-size: 40px;
-    color: #fbf9f9;
+    color: #130275;
 }
 
 img {
@@ -49,7 +49,7 @@ img {
     right: 20px;
     padding: 3px 15px;
     font-size: 10pt;
-    color: #f9f7f7;
+    color: rgb(255, 255, 255);
     background: rgb(179, 16, 43);
     border-radius: 5px;    
 }
@@ -61,7 +61,7 @@ img {
 }
 
 .carregaFoto button{
-    background: #bcc201;
+    background: #3681fb;
     font-family: 'Nunito';
     font-weight: 600;
     color: #000;
@@ -76,7 +76,7 @@ img {
     display: inline-flex;
     margin: 10px 70px;
     padding: 1px 8px;
-    color: #fbf9f9;
+    color: #130275;
 }
 
 .usuario h2{
@@ -92,7 +92,7 @@ img {
     margin-bottom: 20px;
     margin: 10px 35px;
     padding: 0;
-    box-shadow: 1px -1px 10px 0px  rgb(0, 0, 0);
+    box-shadow: 1px -1px 10px 0px  rgb(168, 167, 167);
 }
 
 input[type='file']{
@@ -100,18 +100,18 @@ input[type='file']{
 }
 
 .infoUsuario{
-    margin: 50px -65px 5px;
+    margin: 50px -15px 15px; 
 }
 
 .infoPerfil, .infoEmail{
     display: block;
     font-size: 16px;
-    background: transparent;
     border: 0;
-    margin-top: 5px;
+    margin: 5px 10px;
     width: 230px;
-    color: #bcc201;
+    color: #3681fb;
     outline: none;
+
 }
 
 .dropdown-menu{
@@ -124,11 +124,12 @@ input[type='file']{
     background: #130275;
     width: 100vw;
     height: 5vh;
+    z-index: 1000;
 }
 
 .dropdown-menu ul{
     display: inline-flex;
-    margin: 3px 10px;
+    margin: 2px 10px;
     padding: 3px 10px;
 }
 
@@ -141,19 +142,21 @@ input[type='file']{
 
 .dropdown{
     display: none;
+    box-shadow: 1px -1px 8px 0px rgb(14, 8, 73);
 }
 
 .dropdown a{
-    background: #332a64;
+    background: #3f2bb1;
     display: block;
     text-decoration: none;
     color: #fbf9f9;
     cursor: pointer;
+    padding: 5px 7px;
 }
 
 .dropdown a:hover{
     background: #231c49;
-    padding: 5px 10px;
+    padding: 5px 8px;
     margin: 0;
 }
 
@@ -171,5 +174,50 @@ input[type='file']{
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+}
+
+.titleProduto{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Produtos{
+    width: 600px;
+    max-width: 60vh;
+    margin-top: 180px;
+    padding: 15px 50px;
+    transform: translate(50%, -50%);
+    margin-left: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #130275;
+    box-shadow: 1px -1px 10px 0px rgb(184, 184, 184);
+}  
+
+.Produtos .criaProdutos input, label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 3px 80px;
+    text-align: center;
+    font-weight: 600;
+    outline: none;
+}
+
+.btnProduto{
+    padding: 3px 5px;
+    background-color: #c6c3c3;
+    border-radius: 3px;
+    color: #130275;
+    margin-left: 6px;
+    font-weight: 600
+    ;
+}
+
+.Produtos{
+    display: none;
 }
 
