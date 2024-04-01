@@ -33,7 +33,5 @@ Contribuições são bem-vindas! Se você encontrar bugs, problemas ou tiver sug
 
 [Marcos Santos Martirio](https://github.com/mmartirio)
 
-## Licença
 
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
 
