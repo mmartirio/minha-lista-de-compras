@@ -148,7 +148,7 @@ input.Cadastro:focus {
         align-items: center;
     }
 
-    .cadastroForm .Cadastro input {
+    .cadastroForm input {
         max-width: 80%;
         width: 214.4px;
         display: flex;
